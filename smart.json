@@ -1,0 +1,7 @@
+{
+	"name": "locale",
+	"description": "Provides a Locale",
+	"author": "Scott Beck",
+	"version": "0.1.0",
+  "packages": {}
+}

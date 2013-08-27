@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "locale": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "locale": {
+        "path": "."
+      }
+    }
+  }
+}

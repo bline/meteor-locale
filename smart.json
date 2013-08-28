@@ -1,5 +1,5 @@
 {
-	"name": "meteor-locale",
+	"name": "locale",
 	"description": "Provides a Locale",
 	"author": "Scott Beck",
 	"version": "0.0.1",

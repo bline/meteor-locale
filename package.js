@@ -11,13 +11,14 @@ Package.on_use(function (api) {
 	api.use('session', both);
 	api.use('livedata', both);
 	api.use('mongo-livedata', both);
+  api.use('user-session', both);
 
 	api.add_files('common.coffee', both);
 	api.add_files('server.coffee', 'server');
   api.add_files('client.coffee', 'client');
 
 	if (typeof api.export !== 'undefined') {
-		api.export(['Locale', 'LocaleTranslationCollection'], both);
+		api.export(['t', 'Locale', 'LocaleTranslationCollection'], both);
 	}
 });
 
